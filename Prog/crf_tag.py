@@ -113,6 +113,7 @@ def test_model_for_part(parts_amount, part_num, source_directory_tags, source_di
         print(i)
         result.append(parse_test_sentence(test_sentences_text[i], test_sentences_tags[i]))
 
+    os.makedirs(os.path.dirname(destination_filename), exist_ok=True)
     with open(destination_filename, "w", encoding="utf-8") as outfile:
         outfile.write(json.dumps(result, indent=4, ensure_ascii=False))
 
