@@ -1,10 +1,10 @@
 # MorphologicalDisambiguation
 
 Необходимые библиотеки:
-Cython (0.25.2)
-gensim (2.0.0)
-pymorphy2 (0.8)
-python-crfsuite (0.9.1)
+* Cython (0.25.2)
+* gensim (2.0.0)
+* pymorphy2 (0.8)
+* python-crfsuite (0.9.1)
 
 Перед запуском скриптов необходимо распаковать архив Data.zip в корневой директории
 
